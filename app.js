@@ -107,8 +107,8 @@ const createSlider = () =>
     let item = document.createElement('div')
     item.className = "slider-item";
     item.innerHTML = `<img class="w-100"
-        src="${ slide }"
-        alt="">`;
+            src="${ slide }"
+            alt="">`;
     sliderContainer.appendChild(item)
   })
   changeSlide(0)
@@ -117,7 +117,6 @@ const createSlider = () =>
     slideIndex++;
     changeSlide(slideIndex);
   }, duration);
-
 }
 
 // change slider index 
