@@ -164,11 +164,13 @@ searchBtn.addEventListener('click', function ()
   {
     alert('Please enter which type of image you want to show');
   }
+  search.value = '';
 })
 
 sliderBtn.addEventListener('click', function ()
 {
   createSlider()
+  document.getElementById('duration').value = '';
 })
 
 document.getElementById("search").addEventListener("keyup", function (event)
